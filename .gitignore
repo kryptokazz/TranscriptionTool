@@ -1,0 +1,65 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+pip-wheel-metadata/
+dist/
+build/
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Model weights and large files
+*.pth
+*.h5
+*.model
+weights/
+models/
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Image and data files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+data/
+images/
+output/
+uploads/
+
+# Tesseract-related
+tessdata/
+*.traineddata
+
+# Miscellaneous
+*.cache
+*.ipynb_checkpoints/
+notebooks/
+*.zip
+*.tar.gz
+*.rar
